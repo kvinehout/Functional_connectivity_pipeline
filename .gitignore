@@ -15,14 +15,17 @@ ICA-AROMA-master (https://github.com/maartenmennes/ICA-AROMA)
 NIfTI_20140122 (https://www.mathworks.com/matlabcentral/fileexchange/8797-tools-for-nifti-and-analyze-image)
 LINDA_v0.2.7(https://github.com/dorianps/LINDA/releases)
 ANTs (http://stnava.github.io/ANTs/)
-
+wb_gppi (https://www.ncbi.nlm.nih.gov/pubmed/24753083)
 
 
 # Preprocess files 
 preproc_ana_fmri
 registartion_a2_stroke_control
 feat_hemoR_nohemoR
+save_nii_header
 
+#connectivity files
+SPM_files_PPI
 
 
 # Local Connectiivy files
@@ -34,13 +37,14 @@ cluster_node_ori_data_concat_a2
 
 #topology Files 
 BCT_func
+conection_distance
 
 
 
 #Statistics files 
 nets_glm_grp
 fslNets_pro_a2
-
+sig_corr_task
 
 
 #correlation to significat files 
