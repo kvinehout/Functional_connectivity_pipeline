@@ -1,0 +1,47 @@
+# Main Script 
+Main_scrpit_pip
+
+
+
+# Code from others
+dicm2nii
+FSLNets
+ROBEX
+spm12
+BCT
+ICA-AROMA-master
+NIfTI_20140122
+LINDA_v0.2.7
+
+
+
+# Preprocess files 
+preproc_ana_fmri
+registartion_a2_stroke_control
+feat_hemoR_nohemoR
+
+
+
+# Local Connectiivy files
+ correlatin_within_ROI_a2
+
+#Global Connectiviy files 
+cluster_node_ori_data_concat_a2
+
+
+#topology Files 
+BCT_func
+
+
+
+#Statistics files 
+nets_glm_grp
+fslNets_pro_a2
+
+
+
+#correlation to significat files 
+clinicalmeasures_a2
+
+
+
