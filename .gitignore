@@ -4,14 +4,17 @@ Main_scrpit_pip
 
 
 # Code from others
-dicm2nii
-FSLNets
-ROBEX
-spm12
-BCT
-ICA-AROMA-master
-NIfTI_20140122
-LINDA_v0.2.7
+MATLAB (https://www.mathworks.com/products/matlab.html)
+FSL (https://fsl.fmrib.ox.ac.uk/fsl/fslwiki)
+dicm2nii (https://www.mathworks.com/matlabcentral/fileexchange/42997-xiangruili-dicm2nii)
+FSLNets (https://fsl.fmrib.ox.ac.uk/fsl/fslwiki/FSLNets)
+ROBEX (https://www.nitrc.org/projects/robex)
+spm12 (https://www.fil.ion.ucl.ac.uk/spm/software/download/)
+BCT (https://sites.google.com/site/bctnet/)
+ICA-AROMA-master (https://github.com/maartenmennes/ICA-AROMA)
+NIfTI_20140122 (https://www.mathworks.com/matlabcentral/fileexchange/8797-tools-for-nifti-and-analyze-image)
+LINDA_v0.2.7(https://github.com/dorianps/LINDA/releases)
+ANTs (http://stnava.github.io/ANTs/)
 
 
 
