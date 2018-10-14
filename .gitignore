@@ -22,6 +22,7 @@ BrainNet-Viewer (https://github.com/mingruixia/BrainNet-Viewer)
 # Preprocess files 
 preproc_ana_fmri
 registartion_a2_stroke_control
+STROKE_LINDA
 feat_hemoR_nohemoR
 save_nii_header
 
