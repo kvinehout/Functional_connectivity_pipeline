@@ -33,37 +33,4 @@ for subji=1:length(stroke_ana_file)
    %lesion_masks{subji}=sprintf('%s/linda/%s',stroke_ana_file{subji},filename); %lesion in MNI space... this is what we want     
 end
 lesion_masks=1;
-end
-
-
-
-
- %or make R script with just two lines of code and change this script
-    %subject name and path name and LINDA path 
-    %load the inverted mask 
-    %{
-    %THIS IS ONLY IF WE WANT LEsion in subject space 
-    cd(sprintf('%s/linda',stroke_ana_file{subji}))
-    niiL=load_nii('Lesion_in_MNI.nii.gz');
-    cd ..
-    cd ..
-    cl = struct2cell(niiL);
-    subj_lesion = cl{5}; %(x,y,z)
-    %make zero arrray,%if mask + lesion =0, set to 0,     %if mask =1, lesion =1, set to 0
-    subj_lesion_mask=zeros(size(subj_lesion,1),size(subj_lesion,2),size(subj_lesion,3));
-    size(subj_lesion)
-    size(MNI_mask)
-    subj_both=subj_lesion+MNI_mask; %now have 0, adn 2 as bad, and 1 as good 
-    I=find(subj_both==1);%find just lesion area
-    [x,y,z]=ind2sub(size(subj_both),I); 
-    subj_lesion_mask(x,y,z)=1; %set lesion area to one 
-    filename=sprintf('%s_MNI_lesion_mask_ones',stroke_ana_file{subji});
-    subj_nii_mask=make_nii(subj_lesion_mask);
-    save_nii(subj_nii_mask,filename)
-    standard_IM=sprintf('%s/linda/Lesion_in_MNI.nii.gz',stroke_ana_file{subji});
-    fmri=0;
-    fmri_length=0;
-   [status] = save_nii_header(filename,fmri,fmri_length,standard_IM);%change header file 
-    %}
-    
-  
+end  
