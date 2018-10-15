@@ -1,5 +1,21 @@
 
 
+#Inputs:
+
+#DICOM files
+#task timming file (event or block design)
+#IF gray matter or gray matter and white matter ROI should be used
+
+
+
+#Outputs:
+
+#Global and Local connectivity matrix
+#stats on connectivity values 
+
+
+
+
 List of all files:
 
 # Main Script 
