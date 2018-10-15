@@ -12,7 +12,7 @@ These files are what i use to do the following:
   b) registration transform is applied to fMRI data
 
 3) ROI Selection
-  a) the provided ROI are obtained from 
+  a) the provided ROI are used to obtain 149 regions of interest  
   
   
 4) Global Connectivity 
@@ -27,7 +27,7 @@ These files are what i use to do the following:
 
 
 6) Topology Measurements 
-	a) Using the Brain Connectivity Toolbox a variety of topology Measurements can be calculated
+	a) Using the Brain Connectivity Toolbox a variety of topology Measurements can be calculated on the global connectivity values 
 
 
 7) Statistics 
