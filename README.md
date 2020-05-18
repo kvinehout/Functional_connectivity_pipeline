@@ -1,4 +1,7 @@
 # Functional_connectivity_pipeline
+
+Main file: FC_pipeline.m: This is a functiion to run all the steps listed below. 
+
 These files are what i use to do the following:
 
 1) Preprocess fMRI data and Anatomical data with:
@@ -33,4 +36,6 @@ These files are what i use to do the following:
 7) Statistics 
 	a) non-parametric permutation tests are performed with FSL randomize software 
 
-
+8) Visualization
+	a) Global connectivity: brain net viewer software is used
+	b) Local Connectivity: weights are placed on 3D nii file
