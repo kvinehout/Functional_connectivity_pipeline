@@ -61,7 +61,7 @@ fmri_file={fmri_DICOM};
 [ fin ] = preproc_ana_fmri(ana_file,fmri_file,path_name,removeTR,ROBEX_PATH,skipBET);
 
 
-%% registration --> show python calls 
+%% registration 
 ana_file_length=12;
 %for registration 
 ana_file={sprintf('%s/T1/ana_or_brain',ana_DICOM)};
@@ -70,7 +70,7 @@ fMRI_file={sprintf('%s/shortfmri_or_mcft_brain_bias',fmri_DICOM)};
 [status] = registartion_a2_stroke_control(path_name,reg_file,ana_file,fMRI_file,ana_file_length,linda_path);
 
 
-%% filtering --> show  data cleaning (show inputs/ouputs) 
+%% filtering 
 %for rest only run preprcessing steps --> filt fun data
 subject_name={sprintf('%s/shortfmri_or_mcft_brain_bias_ICA_AROMA/',fmri_DICOM')};
 %so only subjects for that TASK
@@ -116,7 +116,7 @@ standard_IM='/Users/kaleb/Documents/fsl/data/standard/MNI152_T1_1mm_or_brain.nii
 
 
 
-%% EXtract connectiivty for all subjects/conditions (show inputs/ouputs) 
+%% EXtract connectiivty for all subjects/conditions 
 subject_name_file_task={sprintf('%s/shortfmri_or_mcft_brain_bias_ICA_AROMA/funccondata_%s.nii.gz',fmri_DICOM,task_name_all{1})};
 %so only subjects for that TASK
 all_task{1}=[1];   
@@ -172,7 +172,7 @@ save(sprintf('%s/subject_mask_avg_new_all_%s.mat',path_name,save_name_all),'subj
 save(sprintf('%s/stdev_sub_all_%s.mat',path_name,save_name_all),'stdev_sub_all')
 save(sprintf('%s/ts_all_%s.mat',path_name,save_name_all),'ts_all')
 
-%% visualization --> maybe live demo for interview of this??? 
+%% visualization 
 %number of connectiions to visualize 
 good_compi_task=[1:149];
 %gloabl connectivity 
